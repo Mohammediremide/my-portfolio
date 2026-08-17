@@ -23,7 +23,7 @@ export default function FeaturedProject() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="relative order-1 flex min-h-[280px] items-center justify-center overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-surface-3 via-surface-2 to-void lg:order-none"
+            className="relative flex min-h-[280px] items-center justify-center overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-surface-3 via-surface-2 to-void"
           >
             <div className="bg-grid absolute inset-0 opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,black,transparent)]" />
             <div className="relative flex flex-col items-center gap-4">
