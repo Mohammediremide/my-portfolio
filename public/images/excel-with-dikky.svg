@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2233"/>
+      <stop offset="100%" stop-color="#090c10"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9d5c"/>
+      <stop offset="100%" stop-color="#e07f3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg1)"/>
+  <g opacity="0.15" stroke="#edf1f7" stroke-width="1">
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+    <line x1="0" y1="240" x2="400" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="300"/>
+    <line x1="160" y1="0" x2="160" y2="300"/>
+    <line x1="240" y1="0" x2="240" y2="300"/>
+    <line x1="320" y1="0" x2="320" y2="300"/>
+  </g>
+
+  <!-- calendar card -->
+  <g transform="translate(120,60)">
+    <rect x="0" y="0" width="160" height="150" rx="14" fill="#131a28" stroke="#2dd9c4" stroke-opacity="0.4" stroke-width="1.5"/>
+    <rect x="0" y="0" width="160" height="34" rx="14" fill="#2dd9c4"/>
+    <rect x="0" y="20" width="160" height="14" fill="#2dd9c4"/>
+    <circle cx="34" cy="0" r="5" fill="#0d121c"/>
+    <circle cx="126" cy="0" r="5" fill="#0d121c"/>
+    <rect x="24" y="-6" width="6" height="20" rx="3" fill="#0d121c"/>
+    <rect x="130" y="-6" width="6" height="20" rx="3" fill="#0d121c"/>
+
+    <g fill="#5a6478">
+      <circle cx="26" cy="60" r="4"/><circle cx="50" cy="60" r="4"/><circle cx="74" cy="60" r="4"/><circle cx="98" cy="60" r="4"/><circle cx="122" cy="60" r="4"/>
+      <circle cx="26" cy="84" r="4"/><circle cx="50" cy="84" r="4"/><circle cx="98" cy="84" r="4"/><circle cx="122" cy="84" r="4"/>
+      <circle cx="26" cy="108" r="4"/><circle cx="50" cy="108" r="4"/><circle cx="74" cy="108" r="4"/><circle cx="122" cy="108" r="4"/>
+    </g>
+    <circle cx="74" cy="84" r="9" fill="#ff9d5c"/>
+    <circle cx="98" cy="108" r="9" fill="none" stroke="#ff9d5c" stroke-width="2"/>
+  </g>
+
+  <!-- cake -->
+  <g transform="translate(260,150)">
+    <rect x="-24" y="20" width="48" height="34" rx="6" fill="url(#cake)"/>
+    <rect x="-24" y="8" width="48" height="14" fill="#fff" opacity="0.15"/>
+    <rect x="-2" y="-14" width="4" height="20" fill="#edf1f7"/>
+    <path d="M0 -14 Q4 -22 0 -28 Q-4 -22 0 -14Z" fill="#ff9d5c"/>
+  </g>
+
+  <!-- bell -->
+  <g transform="translate(90,190)" stroke="#2dd9c4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 6 C-14 -10 -6 -18 0 -18 C6 -18 14 -10 14 6 L18 14 L-18 14 Z"/>
+    <path d="M-6 18 a6 6 0 0 0 12 0"/>
+  </g>
+</svg>

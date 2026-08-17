@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgReview" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2233"/>
+      <stop offset="100%" stop-color="#090c10"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgReview)"/>
+  <g opacity="0.15" stroke="#edf1f7" stroke-width="1">
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+    <line x1="0" y1="240" x2="400" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="300"/>
+    <line x1="160" y1="0" x2="160" y2="300"/>
+    <line x1="240" y1="0" x2="240" y2="300"/>
+    <line x1="320" y1="0" x2="320" y2="300"/>
+  </g>
+
+  <!-- code review panel -->
+  <g transform="translate(90,60)">
+    <rect x="0" y="0" width="180" height="150" rx="14" fill="#131a28" stroke="#2dd9c4" stroke-opacity="0.4" stroke-width="1.5"/>
+    <rect x="0" y="0" width="180" height="28" rx="14" fill="#1a2233"/>
+    <circle cx="18" cy="14" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="14" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="14" r="5" fill="#28c840"/>
+
+    <g font-family="monospace" fill="#5a6478">
+      <rect x="16" y="42" width="90" height="6" rx="3" fill="#5a6478"/>
+      <rect x="16" y="58" width="130" height="6" rx="3" fill="#3a4560"/>
+      <rect x="30" y="74" width="110" height="6" rx="3" fill="#3a4560"/>
+      <rect x="16" y="90" width="70" height="6" rx="3" fill="#5a6478"/>
+    </g>
+
+    <!-- diff markers -->
+    <rect x="16" y="106" width="148" height="16" rx="4" fill="#2dd9c4" fill-opacity="0.12"/>
+    <rect x="16" y="106" width="4" height="16" fill="#2dd9c4"/>
+    <rect x="16" y="126" width="120" height="16" rx="4" fill="#ff9d5c" fill-opacity="0.12"/>
+    <rect x="16" y="126" width="4" height="16" fill="#ff9d5c"/>
+  </g>
+
+  <!-- checkmark badge -->
+  <g transform="translate(285,150)">
+    <circle r="30" fill="#131a28" stroke="#2dd9c4" stroke-width="2"/>
+    <path d="M-12 0 L-3 10 L14 -12" stroke="#2dd9c4" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- magnifier -->
+  <g transform="translate(230,220)" stroke="#5a6478" stroke-width="4" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="0" r="16" fill="#0d121c" fill-opacity="0.6"/>
+    <line x1="12" y1="12" x2="24" y2="24"/>
+  </g>
+</svg>

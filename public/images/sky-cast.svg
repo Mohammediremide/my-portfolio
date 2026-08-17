@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2233"/>
+      <stop offset="100%" stop-color="#090c10"/>
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef3f8"/>
+      <stop offset="100%" stop-color="#c7d2e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgSky)"/>
+  <g opacity="0.15" stroke="#edf1f7" stroke-width="1">
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+    <line x1="0" y1="240" x2="400" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="300"/>
+    <line x1="160" y1="0" x2="160" y2="300"/>
+    <line x1="240" y1="0" x2="240" y2="300"/>
+    <line x1="320" y1="0" x2="320" y2="300"/>
+  </g>
+
+  <!-- sun -->
+  <g transform="translate(130,110)">
+    <circle r="34" fill="#ff9d5c"/>
+    <g stroke="#ff9d5c" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-52" x2="0" y2="-42"/>
+      <line x1="0" y1="42" x2="0" y2="52"/>
+      <line x1="-52" y1="0" x2="-42" y2="0"/>
+      <line x1="42" y1="0" x2="52" y2="0"/>
+      <line x1="-37" y1="-37" x2="-30" y2="-30"/>
+      <line x1="30" y1="30" x2="37" y2="37"/>
+      <line x1="-37" y1="37" x2="-30" y2="30"/>
+      <line x1="30" y1="-30" x2="37" y2="-37"/>
+    </g>
+  </g>
+
+  <!-- cloud -->
+  <g transform="translate(220,150)">
+    <ellipse cx="0" cy="10" rx="46" ry="28" fill="url(#cloudGrad)"/>
+    <ellipse cx="40" cy="0" rx="38" ry="34" fill="url(#cloudGrad)"/>
+    <ellipse cx="-38" cy="6" rx="30" ry="26" fill="url(#cloudGrad)"/>
+    <rect x="-70" y="10" width="150" height="26" rx="13" fill="url(#cloudGrad)"/>
+  </g>
+
+  <!-- rain drops -->
+  <g stroke="#2dd9c4" stroke-width="4" stroke-linecap="round">
+    <line x1="180" y1="210" x2="174" y2="228"/>
+    <line x1="210" y1="216" x2="204" y2="234"/>
+    <line x1="240" y1="210" x2="234" y2="228"/>
+    <line x1="270" y1="216" x2="264" y2="234"/>
+  </g>
+</svg>
